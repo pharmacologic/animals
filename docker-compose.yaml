@@ -1,0 +1,8 @@
+---
+services:
+  animals:
+    container_name: animals
+    build: .
+    ports:
+      - "4200:80"
+
